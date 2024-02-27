@@ -1,0 +1,32 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.top-container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    text-align: center;
+    background-color: #ccc;
+    color: #000;
+}
+
+.scroll-progress-container {
+    width: 100%;
+    background-color: #F1C40F;
+    height: 10px;
+}
+
+.scroll-progress {
+    width: 0%;
+    height: 10px;
+    background-color: #58D68D;
+}
+
+.container {
+    margin-top: 100px
+}
